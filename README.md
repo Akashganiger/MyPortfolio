@@ -1,16 +1,73 @@
-# React + Vite
+# 🚀 Akash Basavaraj Ganiger — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-6.0-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![CSS3](https://img.shields.io/badge/CSS3-Modern%20Design-1572B6?style=flat-square&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
-Currently, two official plugins are available:
+> A modern, responsive, and performance-optimized personal portfolio showcasing full-stack engineering expertise, Java & Spring Boot backend projects, Applied AI/ML workflows, LeetCode problem-solving, and verified credentials.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌟 Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🌓 **Dark & Light Mode Support**: Seamless theme switching with automatic system preference detection (`prefers-color-scheme`) and `localStorage` persistence.
+* 📬 **Integrated Email & Messaging**:
+  * Direct form submissions delivered instantly to inbox via **FormSubmit**.
+  * 1-Click **Gmail Web Compose** & **Default Mail App** integrations with pre-populated recruiter inquiry templates.
+* 📜 **Verified Certificate Lightbox**: Interactive modal viewer and official credential verification links for Coursera, Google, and University specializations.
+* 📄 **Dual Resume Access**: Instant in-browser PDF preview and direct download capabilities.
+* 📱 **Fully Responsive UI**: Mobile-first glassmorphism design with fluid navigation and micro-animations.
+* ⚡ **Ultra-Fast Performance**: Built on Vite with sub-second reload times and zero layout shifts.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Tech Stack
+
+| Domain | Technologies |
+| :--- | :--- |
+| **Frontend Framework** | React.js (v19), Vite |
+| **Styling & Design System** | Vanilla CSS (CSS Variables, Flexbox, CSS Grid, Glassmorphism) |
+| **Icons & Visuals** | Lucide React, Custom SVG Icons |
+| **Forms & Communication** | FormSubmit REST API, Google Mail Compose Integration |
+| **Fonts** | Inter, Plus Jakarta Sans |
+
+---
+
+## 📂 Project Structure
+
+
+AbPortfolio/
+├── public/
+│   ├── favicon.svg
+│   └── resume.pdf
+├── src/
+│   ├── assets/
+│   │   ├── akash_portrait.jpg
+│   │   ├── AI_Fundamentals.png
+│   │   ├── java_full_stack.png
+│   │   ├── ML.png
+│   │   └── resume.pdf
+│   ├── components/
+│   │   ├── Navbar.jsx / Navbar.css          # Navigation & Theme Toggle
+│   │   ├── Hero.jsx / Hero.css              # Hero Section with CTA & Metrics
+│   │   ├── About.jsx / About.css            # Education & Core Pillars
+│   │   ├── Skills.jsx / Skills.css          # Categorized Tech Stacks
+│   │   ├── Projects.jsx / Projects.css      # Highlighted Project Cards
+│   │   ├── Achievements.jsx / Achievements.css # DSA, Hackathon & LeetCode Timeline
+│   │   ├── Certificates.jsx / Certificates.css # Verified Credentials Lightbox
+│   │   ├── Contact.jsx / Contact.css        # Direct Email Form & Channels
+│   │   └── Footer.jsx / Footer.css          # Footer & Social Links
+│   ├── context/
+│   │   └── ThemeContext.jsx                 # Dark/Light Mode Provider
+│   ├── data/
+│   │   └── portfolioData.js                 # Central Data Store
+│   ├── utils/
+│   │   └── emailHelper.js                   # Gmail & Mailto Link Generators
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
